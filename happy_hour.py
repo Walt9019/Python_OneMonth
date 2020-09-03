@@ -1,20 +1,23 @@
 import random
 
-bars = ["Shoolbred's",
-        "The Wren",
-        "The Scratcher",
-        "ACME",
-        "Blind Barber"]
+food1 = ["steak","bacon","sasuage","pork chop", "chicken"]
 
-people = ["Mattan",
-          "Chris",
-          "that person you forgot to text back",
-          "Kanye West",
-          "Samuel L. Jackson",
-          "Chris Tomland"]
+food2 = ["eggs","maders","onions","taters","fruit"]
 
-random_bar = random.choice(bars)
-random_person1 = random.choice(people)
-random_person2 = random.choice(people)
+food3 = ["corn on the cob","salad","garlic bread","pea salad"]
 
-print(f"How about you go to {random_bar} with {random_person1} and {random_person2}")
+cooked = ["grill","open fire","stove","microwave"]
+
+drink = ["beer","water","coke","coffee"]
+
+desert = ["cookie","cake","jello","pie"]
+
+random_food1 = random.choice(food1)
+random_food2 = random.choice(food2)
+random_food3 = random.choice(food3)
+random_cooked = random.choice(cooked)
+random_drink = random.choice(drink)
+random_desert = random.choice(desert)
+
+
+print(f"what's for dinner Mom?  Johnnie, we are having {random_food1} with {random_food2} and {random_food3} prepared on the {random_cooked} with {random_drink} and {random_desert} to finish with desert.")
